@@ -32,27 +32,27 @@ Asegúrate de tener Python instalado en tu sistema. Puedes descargarlo desde [py
 1. Clona este repositorio:
 
    ```bash
-   git clone https://github.com/tu_usuario/tu-repositorio.git
+   git clone https://github.com/mrgomezsv/ecomerce_api_project.git
    cd tu-repositorio
-
+   ```
 2. Crea y activa un entorno virtual (opcional pero recomendado):
 
    ```bash
    python -m venv venv
-   .\venv\Scripts\activate  # En Windows
+   .\venv\Scripts\activate
+      ```
 
 3. Instala las dependencias:
 
    ```bash
    pip install -r requirements.txt
-
-
+   ```
 ### Ejecución
 
    Ejecución
    Ejecuta la aplicación con el siguiente comando:
 
-      pip install -r requirements.txt
+      uvicorn main:app
 
    La aplicación estará disponible en http://127.0.0.1:8000. Abre tu navegador o utiliza herramientas como curl o httpie para probar las rutas definidas en la API.
 
